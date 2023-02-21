@@ -6,17 +6,14 @@ public class Renfe {
     private Recorregut[] recorreguts;
     private Creuament[] creuaments;
     public Renfe() {
-        // Inicialitzem els arrays
         trens = new Tren[NTRENS];
         recorreguts = new Recorregut[NTRENS];
         creuaments = new Creuament[NCREUAMENTS];
 
-        // Creem els creuaments
         for (int i = 0; i < NCREUAMENTS; i++) {
             creuaments[i] = new Creuament(i);
         }
 
-        // Creem els trens i els recorreguts associats
         for (int i = 0; i < NTRENS; i++) {
             Recorregut recorregut = new Recorregut(creuaments);
             Tren tren = new Tren("Tren[" + i + "]", recorregut);
@@ -26,7 +23,6 @@ public class Renfe {
     }
 
     public void iniciarTrens() {
-        // Iniciem els threads dels trens
         for (int i = 0; i < NTRENS; i++) {
             Tren tren = trens[i];
             Thread thread = new Thread(tren);

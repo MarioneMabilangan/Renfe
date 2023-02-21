@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0709f843-3709-4b93-97d8-89db4f1a674d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Renfe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creuament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recorregut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Renfe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tren.java" afterDir="false" />
-    </list>
+    <list default="true" id="0709f843-3709-4b93-97d8-89db4f1a674d" name="Changes" comment="Renfe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,8 +41,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676836593556</updated>
-      <workItem from="1676836595049" duration="1086000" />
+      <workItem from="1676836595049" duration="1113000" />
     </task>
+    <task id="LOCAL-00001" summary="Renfe">
+      <created>1676837695545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676837695545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renfe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renfe" />
   </component>
 </project>
